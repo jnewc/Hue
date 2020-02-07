@@ -1,0 +1,131 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/jack/dev/swift/Hue/Sources/Hue/Hue.swift",
+      "line": 13,
+      "symbol": "Hue",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jack/dev/swift/Hue/Sources/Hue/Hue.swift",
+      "line": 15,
+      "symbol": "Hue",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jack/dev/swift/Hue/Sources/Hue/Hue.swift",
+      "line": 25,
+      "symbol": "Hue.Error.unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jack/dev/swift/Hue/Sources/Hue/Hue.swift",
+      "line": 26,
+      "symbol": "Hue.Error.unsupportedVersion",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jack/dev/swift/Hue/Sources/Hue/Hue.swift",
+      "line": 27,
+      "symbol": "Hue.Error.urlParseFailure",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jack/dev/swift/Hue/Sources/Hue/Hue.swift",
+      "line": 28,
+      "symbol": "Hue.Error.networkError",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jack/dev/swift/Hue/Sources/Hue/Hue.swift",
+      "line": 29,
+      "symbol": "Hue.Error.httpError(statusCode:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jack/dev/swift/Hue/Sources/Hue/Hue.swift",
+      "line": 30,
+      "symbol": "Hue.Error.parsingFailure(errorMessage:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jack/dev/swift/Hue/Sources/Hue/Responses.swift",
+      "line": 81,
+      "symbol": "Lights.Light.Capabilities.Control",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jack/dev/swift/Hue/Sources/Hue/Responses.swift",
+      "line": 87,
+      "symbol": "Lights.Light.Capabilities.Control.minDimLevel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jack/dev/swift/Hue/Sources/Hue/Responses.swift",
+      "line": 88,
+      "symbol": "Lights.Light.Capabilities.Control.maxLumen",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jack/dev/swift/Hue/Sources/Hue/Responses.swift",
+      "line": 90,
+      "symbol": "Lights.Light.Capabilities.isCertified",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jack/dev/swift/Hue/Sources/Hue/Responses.swift",
+      "line": 91,
+      "symbol": "Lights.Light.Capabilities.control",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jack/dev/swift/Hue/Sources/Hue/Responses.swift",
+      "line": 121,
+      "symbol": "Groups.Group",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jack/dev/swift/Hue/Sources/Hue/Responses.swift",
+      "line": 140,
+      "symbol": "Groups.Group.Action.isOn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jack/dev/swift/Hue/Sources/Hue/Responses.swift",
+      "line": 141,
+      "symbol": "Groups.Group.Action.brightness",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jack/dev/swift/Hue/Sources/Hue/Responses.swift",
+      "line": 282,
+      "symbol": "Schedules.Schedule.created",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jack/dev/swift/Hue/Sources/Hue/Responses.swift",
+      "line": 309,
+      "symbol": "Scenes.Scene",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/jack/dev/swift/Hue"
+}
