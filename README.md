@@ -13,4 +13,4 @@ let subscription = hue.lights().sink { lights in
 }
 ```
 
-See [docs](https://google.com) for other APIs.
+See [docs](https://jnewc.github.io/Hue/docs/) for other APIs.
