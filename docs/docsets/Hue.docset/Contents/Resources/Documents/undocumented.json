@@ -4,105 +4,56 @@
       "file": "/Users/jack/dev/swift/Hue/Sources/Hue/Hue.swift",
       "line": 13,
       "symbol": "Hue",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jack/dev/swift/Hue/Sources/Hue/Hue.swift",
-      "line": 13,
-      "symbol": "Hue",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jack/dev/swift/Hue/Sources/Hue/Hue.swift",
-      "line": 21,
-      "symbol": "Hue.Error",
-      "symbol_kind": "source.lang.swift.decl.enum",
+      "line": 15,
+      "symbol": "Hue",
+      "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jack/dev/swift/Hue/Sources/Hue/Hue.swift",
-      "line": 22,
+      "line": 25,
       "symbol": "Hue.Error.unknown",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jack/dev/swift/Hue/Sources/Hue/Hue.swift",
-      "line": 23,
+      "line": 26,
       "symbol": "Hue.Error.unsupportedVersion",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jack/dev/swift/Hue/Sources/Hue/Hue.swift",
-      "line": 24,
+      "line": 27,
       "symbol": "Hue.Error.urlParseFailure",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jack/dev/swift/Hue/Sources/Hue/Hue.swift",
-      "line": 25,
+      "line": 28,
       "symbol": "Hue.Error.networkError",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jack/dev/swift/Hue/Sources/Hue/Hue.swift",
-      "line": 26,
+      "line": 29,
       "symbol": "Hue.Error.httpError(statusCode:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jack/dev/swift/Hue/Sources/Hue/Hue.swift",
-      "line": 27,
+      "line": 30,
       "symbol": "Hue.Error.parsingFailure(errorMessage:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jack/dev/swift/Hue/Sources/Hue/Hue.swift",
-      "line": 47,
-      "symbol": "Hue.ConnectResponse",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jack/dev/swift/Hue/Sources/Hue/Hue.swift",
-      "line": 48,
-      "symbol": "Hue.ConnectResponse.linkRequired",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jack/dev/swift/Hue/Sources/Hue/Hue.swift",
-      "line": 49,
-      "symbol": "Hue.ConnectResponse.linked(username:)",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jack/dev/swift/Hue/Sources/Hue/Hue.swift",
-      "line": 52,
-      "symbol": "Hue.bridgeURL",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jack/dev/swift/Hue/Sources/Hue/Hue.swift",
-      "line": 54,
-      "symbol": "Hue.username",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jack/dev/swift/Hue/Sources/Hue/Hue.swift",
-      "line": 70,
-      "symbol": "Hue.connect()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
