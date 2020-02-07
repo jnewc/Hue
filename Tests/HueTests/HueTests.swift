@@ -12,37 +12,37 @@ final class HueTests: XCTestCase {
     // MARK: Collection Tests
     
     func testLights() {
-        test(with: try! hue.lights())
+        test(with: hue.lights())
     }
     
     func testGroups() {
-        test(with: try! hue.groups())
+        test(with: hue.groups())
     }
     
     func testSchedules() {
-        test(with: try! hue.schedules())
+        test(with: hue.schedules())
     }
     
     func testScenes() {
-        test(with: try! hue.scenes())
+        test(with: hue.scenes())
     }
     
     func testSensors() {
-        test(with: try! hue.sensors())
+        test(with: hue.sensors())
     }
     
     // MARK: Element Tests
     
     func testLight() {
-        test(with: try! hue.light(id: "1"))
+        test(with: hue.light(id: "1"))
     }
 
     func testGroup() {
-        test(with: try! hue.group(id: "1"))
+        test(with: hue.group(id: "1"))
     }
     
     func testScene() {
-        test(with: try! hue.scene(id: "Vkj3pJUJwTIWp9T"))
+        test(with: hue.scene(id: "Vkj3pJUJwTIWp9T"))
     }
 
     // MARK: Utils
