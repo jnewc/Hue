@@ -1,3 +1,16 @@
 # Hue
 
-A description of this package.
+A Phillips Hue client library written in Swift.
+
+## Usage
+
+Example:
+
+```swift
+let hue = Hue(bridgeURL: "https://...", username: "A1B2C3...")
+let subscription = hue.lights().sink { lights in
+  // Do something with lights
+}
+```
+
+See [docs](https://google.com) for other APIs.
