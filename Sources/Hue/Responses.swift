@@ -42,6 +42,12 @@ public struct LinkSuccessResponse: Decodable {
     public let success: SuccessContent
 }
 
+extension Array where Element == LinkErrorResponse {
+    var isLinkRequest: Bool {
+        return count == 1 && self.first?.isLinkRequest ?? false
+    }
+}
+
 // MARK: Lights
 
 /// Describes all light elements for a bridge.

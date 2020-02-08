@@ -81,7 +81,7 @@ public class Hue {
         return execute(endpoint: .login, method: .post, body: .link(deviceType: deviceType))
             .tryMap { data throws in
                 let decoder = JSONDecoder()
-                if let response = try? decoder.decode(LinkErrorResponse.self, from: data), response.isLinkRequest {
+                if let response = try? decoder.decode([LinkErrorResponse].self, from: data), response.isLinkRequest {
                     return .linkRequired
                 }
                 do {
