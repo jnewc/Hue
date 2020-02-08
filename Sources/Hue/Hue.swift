@@ -77,7 +77,7 @@ public class Hue {
     
     /// Requests a new whitelisted user ID from the bridge.
     public func link() -> AnyPublisher<Hue.ConnectResponse, Hue.Error> {
-        return execute(endpoint: .login)
+        return execute(endpoint: .login, method: .post)
             .tryMap { data throws in
                 let decoder = JSONDecoder()
                 if let response = try? decoder.decode(LinkErrorResponse.self, from: data), response.isLinkRequest {
