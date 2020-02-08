@@ -76,8 +76,9 @@ public class Hue {
     }
     
     /// Requests a new whitelisted user ID from the bridge.
-    public func link() -> AnyPublisher<Hue.ConnectResponse, Hue.Error> {
-        return execute(endpoint: .login, method: .post)
+    /// - Parameter deviceType: A name for the device making the link. e.g. the name of your app.
+    public func link(deviceType: String) -> AnyPublisher<Hue.ConnectResponse, Hue.Error> {
+        return execute(endpoint: .login, method: .post, body: .link(deviceType: deviceType))
             .tryMap { data throws in
                 let decoder = JSONDecoder()
                 if let response = try? decoder.decode(LinkErrorResponse.self, from: data), response.isLinkRequest {

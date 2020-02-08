@@ -19,6 +19,10 @@ extension RequestBody {
 }
 
 extension RequestBody {
+    static func link(deviceType: String) -> Self? {
+        return .from(["devicetype": deviceType])
+    }
+    
     static func on(state: Bool) -> Self? {
         let dict = ["on": state]
         return .from(dict)
