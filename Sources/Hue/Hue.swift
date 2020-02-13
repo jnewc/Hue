@@ -87,11 +87,14 @@ public class Hue {
                     return .linkRequired
                 }
                 do {
-                    let response = try decoder.decode(LinkSuccessResponse.self, from: data)
-                    self.username = response.success.username
-                    return .linked(username: response.success.username)
-                } catch let error {
+                    let response = try decoder.decode([LinkSuccessResponse].self, from: data)
+                    guard let username = response.first?.success.username else { throw Error.unknown }
+                    self.username = username
+                    return .linked(username: username)
+                } catch let error as DecodingError {
                     throw Error.parsingFailure(errorMessage: error.localizedDescription)
+                } catch let error {
+                    throw error
                 }
             }
             .autoMapErrorType(Hue.Error.self, default: .unknown)
