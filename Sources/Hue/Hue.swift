@@ -71,7 +71,9 @@ public class Hue {
     }
     
     func url(forEndpoint endpoint: Endpoint) -> URL? {
-        guard let username = username else { return nil }
+        guard let username = username else {
+            return URL(string: "\(bridgeURL)/api/\(endpoint.path)")
+        }
         return URL(string: "\(bridgeURL)/api/\(username)/\(endpoint.path)")
     }
     
