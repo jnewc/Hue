@@ -1,6 +1,6 @@
 # Hue
 
-A Phillips Hue client library written in Swift.
+A Philips Hue client library written in Swift.
 
 ## Usage
 
