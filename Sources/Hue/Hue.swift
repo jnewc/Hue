@@ -115,9 +115,6 @@ public class Hue {
                 let (data, response) = $0
                 guard let httpResponse = response as? HTTPURLResponse else { throw Error.networkError }
                 guard httpResponse.statusCode == 200 else { throw Error.httpError(statusCode: httpResponse.statusCode) }
-                #if DEBUG
-                print("[Hue HTTP Response]: \n\n \(String(data: data, encoding: .utf8)!)")
-                #endif
                 return data
             }
             .autoMapErrorType(Hue.Error.self, default: .unknown)

@@ -97,7 +97,6 @@ extension Hue {
     private func execute<T>(with endpoint: Endpoint, type: T.Type, body: RequestBody? = nil) -> AnyPublisher<T, Hue.Error> where T: Decodable {
         execute(endpoint: endpoint, method: body == nil ? .get : .put, body: body)
             .decode(type: type, decoder: JSONDecoder())
-            .print()
             .autoMapDecodingError()
             .autoMapErrorType(Hue.Error.self, default: .unknown)
             .eraseToAnyPublisher()
